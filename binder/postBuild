@@ -14,3 +14,8 @@ R -e "BiocManager::install()"
 # Biostrings: Efficient manipulation of biological strings
 # https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 R -e "BiocManager::install('Biostrings')"
+
+# Required R packages R from Bioconductor
+
+R -e "BiocManager::install('limma')"
+R -e "BiocManager::install('DESeq')"
