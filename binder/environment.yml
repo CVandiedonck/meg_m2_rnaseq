@@ -1,4 +1,6 @@
-name: plasmabio-template-r
+name: mmeg_m2_rnaseq_r
+# new env for the MEG M2 RNAseq course, created in 2022
+
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest priority
@@ -29,3 +31,11 @@ dependencies:
   # - r-repr
   # - pip:
     # - lckr-jupyterlab-variableinspector
+  # for the M2 course  
+  - r-Matrix
+  - r-lattice
+  - r-fdrtool
+  - r-rpart
+  - r-RSQLite
+  - r-gplots
+  - r-locfit
