@@ -18,8 +18,15 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  # fortran required for some r packages
   - gfortran_linux-64
+  # Python environment
+  - python>=3.8
   - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - psutil
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive
@@ -48,6 +55,9 @@ dependencies:
   - r-writexl
   - r-readxl
   - r-rcolorbrewer
+  # to run r in python notebooks
+  - rpy2
+  - simplegeneric # for some reasons needed by rpy2
   # for the M2 course 
   - r-devtools
   - r-Matrix
