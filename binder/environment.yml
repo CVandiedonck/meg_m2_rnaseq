@@ -27,7 +27,8 @@ dependencies:
   - r-base>=4
   - r-tidyverse
   - r-rcpp
-  # for the M2 course  
+  # for the M2 course 
+  - r-devtools
   - r-Matrix
   - r-lattice
   - r-fdrtool
