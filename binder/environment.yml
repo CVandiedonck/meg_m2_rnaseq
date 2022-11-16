@@ -17,6 +17,7 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  - libgomp
   - pip
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
