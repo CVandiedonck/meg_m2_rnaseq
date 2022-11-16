@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Install Bash kernel
 python -m bash_kernel.install --sys-prefix
 
 # Install R package
