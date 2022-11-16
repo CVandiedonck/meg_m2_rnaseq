@@ -1,5 +1,6 @@
-name: mmeg_m2_rnaseq_r
+name: mmeg_m2_rnaseq_bash_and_r
 # new env for the MEG M2 RNAseq course, created in 2022
+# using https://github.com/Scaburet/meg_m2_rnaseq_bash and https://github.com/Scaburet/meg_m2_rnaseq_r repositories
 
 # channels priority
 # see https://bioconda.github.io/
@@ -22,6 +23,17 @@ dependencies:
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive
+  - pip:
+    - bash_kernel
+  # For the M2 course:
+  - fastqc
+  - fastp
+  - bowtie
+  - samtools
+  - multiqc
+  - qualimap
+  - bedtools
+  - htseq
   # R environment
   - r-irkernel
   - r-base>=4
