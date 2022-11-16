@@ -17,7 +17,7 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
-  - libgomp
+  - gfortran_linux-64
   - pip
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
@@ -26,12 +26,7 @@ dependencies:
   - r-irkernel
   - r-base>=4
   - r-tidyverse
-  # JupyterLab Variable inspector
-  # https://github.com/lckr/jupyterlab-variableInspector
-  # Disabled due to bug https://github.com/lckr/jupyterlab-variableInspector/issues/122
-  # - r-repr
-  # - pip:
-    # - lckr-jupyterlab-variableinspector
+  - r-rcpp
   # for the M2 course  
   - r-Matrix
   - r-lattice
