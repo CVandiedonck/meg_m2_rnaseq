@@ -23,6 +23,9 @@ dependencies:
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive
+  # Jupyter git
+  # https://github.com/jupyterlab/jupyterlab-git
+  - jupyterlab-git
   - pip:
     - bash_kernel
   # For the M2 course:
@@ -39,6 +42,12 @@ dependencies:
   - r-base>=4
   - r-tidyverse
   - r-rcpp
+  - r-dt
+  - r-repr
+  - r-writexls
+  - r-writexl
+  - r-readxl
+  - r-rcolorbrewer
   # for the M2 course 
   - r-devtools
   - r-Matrix
